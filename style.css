@@ -1,0 +1,374 @@
+/*  
+Theme Name: smrtdsgn
+Theme URI: http://smrtdsgn.com/
+Description: A custom built theme for smrtdsgn built by <a href="http://jakespurlock.com">Jake Spurlock</a>
+Version: 0.5.1
+Author: Jake Spurlock
+Author URI: http://jakespurlock.com
+Tags: buddypress
+*/
+
+/* Release Notes
+
+
+0.5 	First go at it.
+0.5.1	WordPress Integration
+
+*/
+
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	font-family:"Helvetica Neue", Helvetica, Arial, san-serif;
+	background-color:#e6e6e6;
+	font-size:14px;
+	}
+	
+a {
+	color:#333;
+	text-decoration:none;
+	border-bottom:1px dotted #333;
+	}
+	
+#wrapper {
+	width:755px;
+	margin:0 auto;
+	background-color:#ccc;
+	box-shadow: 0px 0px 5px #333;
+	-moz-box-shadow: 0px 0px 5px #333;
+	-webkit-box-shadow: 0px 0px 5px #333;
+	
+	}
+	
+#header {
+	height:180px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#999));
+	background-image: -moz-linear-gradient(top, rgba(153, 153, 153, 0.5), rgba(51, 51, 51, 0.5));
+	border-color: #666;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+	}
+	
+	
+#header h1 {
+	font-size:120px;
+	text-align:center;
+	color:#eee;
+	text-shadow: 0px 1px 5px #555;
+	letter-spacing:1px;
+	padding-top:15px;
+	}
+	
+#header h1 a{
+	color:#eee;
+	text-decoration:none;
+	border-bottom:0px;
+	}
+	
+#content {
+	width:575px;
+	color:#333;
+    text-shadow: 0px 1px 0px #fff;
+    float:left;
+}
+
+#content h1 {
+	font-size:48px;
+	padding-bottom:12px;
+	padding:10px;
+	}
+
+
+#content h2 {
+	font-size:30px;
+	padding-bottom:12px;
+	padding:10px;
+	}
+
+#content h3 {
+	font-size:18px;
+	padding-bottom:12px;
+	padding:10px;
+	}
+
+#content h4 {
+	font-size:16px;
+	padding-bottom:12px;
+	padding:10px;
+	}
+
+#content h5 {
+	font-size:14px;
+	padding-bottom:12px;
+	padding:10px;
+	}
+	
+#content h6 {
+	font-size:12px;
+	padding-bottom:12px;
+	padding:10px;
+	}
+
+
+
+#content h2 a {
+	text-decoration:none;
+	color:#333;
+	border:0px;
+	}
+	
+#content h2 a:hover {
+	}
+	
+.entry p {
+	line-height:120%;
+	padding:10px;
+	}
+	
+.entry blockquote {
+	margin-left:20px;
+	font-style:italic;
+	border-left:1px solid #333;
+	}
+
+
+.entry blockquote p {
+	padding: 0px 10px !important;
+	margin-bottom:10px;
+	}
+
+.entry cite {
+	margin-left:25px;
+	font-style:normal;
+	}
+
+.entry ul {
+	list-style-type:circle;
+	margin-left:20px;
+	}
+	
+.entry ul li {
+	margin-left:20px;
+	padding-bottom:10px;
+	}
+
+.entry ol {
+	list-style-type:circle;
+	margin-left:20px;
+	}
+	
+.entry ol li {
+	margin-left:20px;
+	padding-bottom:10px;
+	}
+	
+.meta {
+	margin:10px;
+	font-size:12px;
+	}
+	
+.meta p {
+	margin-bottom:6px;
+	}
+	
+.meta a {
+	text-decoration:none;
+	color:#333;
+	border-bottom:1px dotted #555;
+	}
+	
+.sup{
+	font-size:8px;
+	vertical-align:top;
+	} 
+	
+#sidebar {
+	width:160px;
+	float:left;
+	padding-top:50px;
+	padding-left:10px;
+	}
+	
+#sidebar ul {
+	padding-bottom:25px;
+	}
+
+#sidebar ul li {
+	margin-bottom:8px;
+	}
+
+#sidebar h2 {
+	font-size:18px;
+	margin:10px 10px 12px 0px;
+	}
+
+#sidebar h3 {
+	font-size:18px;
+	padding-bottom:12px;
+	}
+	
+.clear {
+	clear:both;
+	}
+	
+#disqus_thread {
+	padding-left:10px;
+	}
+	
+.dsq-brlink {
+	margin-bottom:10px;
+	margin-left:10px;
+	display:block;
+	}
+	
+.entry pre {
+	margin-left:10px;
+	}
+	
+.entry dl {
+	margin-left:10px;
+	}
+	
+.entry table {
+	margin-left:10px;
+	}
+	
+.entry addrress {
+	margin-left:10px;
+	}
+	
+.entry img {
+	background-color:#eee;
+	padding:5px;
+	/*border:2px outset #bbb;*/
+	box-shadow: 0px 0px 5px #333;
+	-moz-box-shadow: 0px 0px 5px #333;
+	-webkit-box-shadow: 0px 0px 5px #333;
+	margin-bottom:8px;
+	}
+
+img.wp-smiley {
+	background-color:transparent;
+	padding:0px;
+	/*border:2px outset #bbb;*/
+	box-shadow: 0px 0px 0px #333;
+	-moz-box-shadow: 0px 0px 0px #333;
+	-webkit-box-shadow: 0px 0px 0px #333;
+	margin-bottom:0px;
+	}
+
+#footer {
+	height:20px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#aaa), to(#ccc));
+	background-color:#999;
+	border-color: #666;
+    border-style: solid;
+    border-width: 1px 0 1px 0;
+}
+
+#footer p {
+	margin-left:10px;
+	font-size:10px;
+	color:#333;
+	padding-top:3px;
+	}
+	
+.navigation {
+	margin-bottom:20px;
+	padding-bottom:2px;
+	margin-left:10px;
+	font-size:12px;
+	}
+	
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left;
+	}
+p.nocomments {
+display:none;
+margin-left:10px;
+}
+
+#like-box, .linkwithin_hook {
+	margin-left:10px;
+	}
+	
+label.screen-reader-text {
+	display:none;
+	}
+	
+#s {
+	width:90px;
+	}
